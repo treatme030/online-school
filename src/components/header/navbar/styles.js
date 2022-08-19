@@ -1,7 +1,8 @@
 const styles = {
   navbar: {
+    width: '100%',
     display: { lg: 'flex' },
-    flexGrow: 1,
+    justifyContent: 'space-evenly',
   },
   link: {
     display: 'flex',
