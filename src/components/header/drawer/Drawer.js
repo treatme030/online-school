@@ -9,7 +9,7 @@ const Drawer = ({ open, onClose }) => {
     <MuiDrawer
       anchor='left'
       open={open}
-      PaperProps={{ sx: { width: '100%' }, zIndex: 4 }}
+      PaperProps={{ sx: { width: '100%' }, zindex: 4 }}
     >
       <Box sx={{ p: '20px' }}>
         <IconButton onClick={onClose}>
