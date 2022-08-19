@@ -1,6 +1,6 @@
 const styles = {
   navbar: {
-    display: 'flex',
+    display: { lg: 'flex' },
     flexGrow: 1,
   },
   link: {
