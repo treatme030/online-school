@@ -38,6 +38,15 @@ const theme = createTheme({
         lineHeight: '29px',
       },
     },
+    body1: {
+      color: '#fff',
+      fontSize: '14px',
+      lineHeight: '17px',
+      [breakpoints.up('md')]: {
+        fontSize: '18px',
+        lineHeight: '22px',
+      },
+    },
     body2: {
       fontFamily: 'Montserrat,sans-serif',
       fontWeight: 400,
@@ -47,6 +56,31 @@ const theme = createTheme({
       [breakpoints.up('md')]: {
         fontSize: '20px',
         lineHeight: '24px',
+      },
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          boxSizing: 'border-box',
+          background: '#673F86',
+          borderRadius: '8px',
+          border: '2px solid #673F86',
+          padding: '14px',
+          fontWeight: 500,
+          fontSize: '20px',
+          lineHeight: '24px',
+          textTransform: 'capitalize',
+          color: '#FFFFFF',
+          '&:hover': {
+            background: '#9980B7',
+          },
+          '&:disabled': {
+            background: '#9980B7',
+            color: '#FFFFFF',
+          },
+        },
       },
     },
   },
