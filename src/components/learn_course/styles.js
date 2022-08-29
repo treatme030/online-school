@@ -5,6 +5,7 @@ const styles = {
   title: (theme) => ({
     fontWeight: 500,
     color: theme.palette.typography.title,
+    textTransform: 'capitalize',
     mb: '10px',
   }),
   listItem: {

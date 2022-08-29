@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, List, ListItem, ListItemText, Typography } from '@mui/material';
+import { Box, List, ListItem, Typography } from '@mui/material';
 
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import styles from './styles';

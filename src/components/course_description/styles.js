@@ -8,10 +8,9 @@ const styles = {
   title: (theme) => ({
     fontWeight: 500,
     color: theme.palette.typography.title,
+    textTransform: 'capitalize',
   }),
   desc: (theme) => ({
-    fontSize: '20px',
-    lineHeight: '24px',
     color: theme.palette.typography.desc,
     marginTop: '12px',
   }),
