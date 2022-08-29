@@ -16,6 +16,7 @@ const theme = createTheme({
       fontSize: '36px',
       lineHeight: '55px',
       textTransform: 'capitalize',
+      color: '#000',
     },
     h2: {
       fontSize: '24px',

@@ -35,6 +35,7 @@ const styles = {
   title: (theme) => ({
     mt: '48px',
     mb: '24px',
+    color: '#fff',
     [theme.breakpoints.up('lg')]: {
       mt: 'initial',
       maxWidth: '459px',
