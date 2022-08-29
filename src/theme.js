@@ -8,6 +8,10 @@ const theme = createTheme({
       main: '#9980B7',
       dark: '#673F86',
     },
+    typography: {
+      title: '#0A033C',
+      desc: '#5D5A6F',
+    },
   },
   typography: {
     h1: {
