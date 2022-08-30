@@ -5,9 +5,9 @@ import whiteArrow from '../../../assets/chevron-down-white.svg';
 import styles from './styles';
 
 const pages = [
-  { title: 'Home', arrow: false },
+  { title: 'Home', arrow: false, link: '/' },
   { title: 'About', arrow: false },
-  { title: 'Course', arrow: true },
+  { title: 'Course', arrow: true, link: '/course-detail' },
   { title: 'Page', arrow: true },
   { title: 'Blog', arrow: true },
   { title: 'Contact', arrow: false },
@@ -19,6 +19,7 @@ const Navbar = ({ white }) => {
       {pages.map((page, index) => (
         <Link
           key={index}
+          href={page.link}
           sx={{ ...styles.link, color: white ? '#fff' : '#000' }}
         >
           {page.title}
